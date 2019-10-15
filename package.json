@@ -1,0 +1,19 @@
+{
+  "name": "get-restdb-data",
+  "version": "0.0.1",
+  "description": "Script to download and optionally delete all data from a restdb.io database collection.",
+  "main": "getdata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Gundry",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request-promise": "^4.2.4",
+    "valid-url": "^1.0.9"
+  },
+  "bin": {
+    "get-restdb-data": "./getdata.js"
+  }
+}
